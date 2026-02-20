@@ -38,6 +38,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       'avoid': 'Foods to Avoid',
       'notes': 'Health Notes',
       'empty': 'Describe your symptoms to get started',
+      'sleeping': 'Server is waking up. Please retry in about 30 seconds.',
     },
     'hi': {
       'title': 'लक्षण जाँच',
@@ -53,6 +54,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       'avoid': 'बचने योग्य खाद्य पदार्थ',
       'notes': 'स्वास्थ्य नोट्स',
       'empty': 'शुरुआत करने के लिए अपने लक्षणों का वर्णन करें',
+      'sleeping': 'सर्वर चालू हो रहा है। कृपया लगभग 30 सेकंड बाद फिर प्रयास करें।',
     },
     'te': {
       'title': 'లక్షణ పరిశీలన',
@@ -68,6 +70,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       'avoid': 'తప్పించవలసిన ఆహారాలు',
       'notes': 'ఆరోగ్య గమనికలు',
       'empty': 'ప్రారంభించడానికి మీ లక్షణాలను వివరించండి',
+      'sleeping': 'సర్వర్ మేల్కొంటోంది. దయచేసి సుమారు 30 సెకన్ల తర్వాత మళ్లీ ప్రయత్నించండి.',
     },
   };
 
@@ -120,6 +123,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
 
   Future<void> _predict() async {
     final text = _controller.text.trim();
+    final t = _labels[_lang]!;
     if (text.isEmpty) return;
 
     setState(() => _loading = true);
@@ -130,6 +134,15 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       if (!mounted) return;
       setState(() => _result = response);
       _fadeController.forward();
+    } on ApiSleepingException {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(t['sleeping']!),
+          backgroundColor: Colors.orange.shade700,
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(

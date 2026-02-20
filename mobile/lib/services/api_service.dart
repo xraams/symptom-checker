@@ -8,15 +8,7 @@ class ApiService {
   : _dio = Dio(BaseOptions(baseUrl: baseUrl ?? _defaultBaseUrl));
 
   static String get _defaultBaseUrl {
-    if (kIsWeb) {
-      return 'http://127.0.0.1:8001';
-    }
-    switch (defaultTargetPlatform) {
-      case TargetPlatform.android:
-        return 'http://10.0.2.2:8001';
-      default:
-        return 'http://127.0.0.1:8001';
-    }
+    return 'https://symptom-checker-vhz9.onrender.com';
   }
 
   final Dio _dio;

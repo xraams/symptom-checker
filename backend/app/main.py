@@ -1,14 +1,12 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from .schemas import PredictRequest, PredictResponse, ExplainItem, DietPlan
 from .services.diet_engine import NutrientScoredLayer
 from .services.explainability import IntegratedGradientsExplainer
-from .services.model_service import DiseaseModelService, train_and_save_model
+from .services.model_service import DiseaseModelService
 from .services.nlp_service import BiomedicalNLPService
 from .services.risk_engine import RiskAwareLayer
 
@@ -31,10 +29,10 @@ diet_layer = NutrientScoredLayer()
 
 @app.on_event("startup")
 def bootstrap_model() -> None:
-    if not model_service._is_fitted:
-        output = Path(__file__).resolve().parents[1] / "models" / "catboost_disease.cbm"
-        train_and_save_model(output)
+    try:
         model_service._load_if_exists()
+    except Exception as e:
+        print(f"⚠️ Startup model load failed, continuing with fallback mode: {e}")
 
 
 @app.get("/health")

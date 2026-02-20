@@ -1,0 +1,112 @@
+{
+  "multilingual_symptoms": {
+    "fever": {
+      "english": ["fever", "high temperature", "pyrexia", "elevated temperature"],
+      "hindi": ["bukhar", "बुखार", "tez garmi", "तेज गर्मी"],
+      "telugu": ["jwaram", "జ్వరం", "ushnata", "ఉష్ణత"],
+      "spanish": ["fiebre", "temperatura elevada"]
+    },
+    "cough": {
+      "english": ["cough", "dry cough", "productive cough", "hacking cough"],
+      "hindi": ["khansi", "खांसी", "khansi aana", "खांसी आना"],
+      "telugu": ["daggu", "దగ్గు", "oodana", "ఊదన"],
+      "spanish": ["tos", "tos seca"]
+    },
+    "sore_throat": {
+      "english": ["sore throat", "throat pain", "pharyngitis", "throat irritation"],
+      "hindi": ["gale dard", "गले दर्द", "gale mein dard", "गले में दर्द", "kantha vedna", "कंठ वेदना"],
+      "telugu": ["gonthu noppi", "గొంతు నొప్పి", "kanta vedana", "కంట వేదన"],
+      "spanish": ["dolor de garganta", "faringitis"]
+    },
+    "runny_nose": {
+      "english": ["runny nose", "nasal congestion", "rhinitis", "cold"],
+      "hindi": ["naak bahna", "नाक बहना", "naak bhid", "नाक भीड़"],
+      "telugu": ["mukku kardam", "ముక్కు కారేటం", "nasika sravana", "నాసిక శ్రవణ"],
+      "spanish": ["nariz que moquea", "congestión nasal"]
+    },
+    "headache": {
+      "english": ["headache", "head pain", "migraine", "cephalgia"],
+      "hindi": ["sar dard", "सर दर्द", "sir mein dard", "सिर में दर्द"],
+      "telugu": ["tala vedana", "తల వేదన", "mastishka vedana", "మస్తిష్క వేదన"],
+      "spanish": ["dolor de cabeza", "cefalea"]
+    },
+    "fatigue": {
+      "english": ["fatigue", "tiredness", "weakness", "exhaustion"],
+      "hindi": ["thakaan", "थकान", "kamzori", "कमजोरी", "halkan mehsoos", "हल्कापन महसूस"],
+      "telugu": ["alasta", "అలసట", "shakti rachyamu", "శక్తి రాచ్యము"],
+      "spanish": ["fatiga", "cansancio", "debilidad"]
+    },
+    "nausea": {
+      "english": ["nausea", "feeling sick", "queasiness"],
+      "hindi": ["jee ghbrana", "जी घबराना", "queasi mahsoos hona", "क्वासी महसूस होना"],
+      "telugu": ["muttu samjavacchu", "ముత్తు సమజవచ్చు", "akula daridrya", "అకుల దరిద్ర్య"],
+      "spanish": ["náuseas", "sensación de mareo"]
+    },
+    "vomiting": {
+      "english": ["vomit", "vomiting", "throwing up"],
+      "hindi": ["ulti", "उल्टी", "qai karna", "कै करना"],
+      "telugu": ["vantulu", "వాంతులు", "ulti cheddamu", "ఉల్టీ చెడ్డము"],
+      "spanish": ["vómito", "vomitar"]
+    },
+    "diarrhea": {
+      "english": ["diarrhea", "loose motion", "bowel movement", "diarrhoea"],
+      "hindi": ["dast", "दस्त", "maal dhila hona", "मल ढीला होना"],
+      "telugu": ["visarjana", "విసర్జన", "malalamu", "మలం"],
+      "spanish": ["diarrea", "evacuación intestinal"]
+    },
+    "abdominal_pain": {
+      "english": ["abdominal pain", "stomach pain", "belly ache", "cramps"],
+      "hindi": ["pet dard", "पेट दर्द", "kokhla dard", "कोखला दर्द"],
+      "telugu": ["kadu vedana", "కడు వేదన", "udara vedana", "ఉదర వేదన"],
+      "spanish": ["dolor abdominal", "dolor de panza"]
+    },
+    "chest_pain": {
+      "english": ["chest pain", "thoracic pain", "angina"],
+      "hindi": ["seene mein dard", "सीने में दर्द", "chati dard", "छाती दर्द"],
+      "telugu": ["stana vedana", "స్తన వేదన", "uro vedana", "ఉరో వేదన"],
+      "spanish": ["dolor de pecho", "dolor torácico"]
+    },
+    "shortness_of_breath": {
+      "english": ["shortness of breath", "breathlessness", "dyspnea", "breathing difficulty"],
+      "hindi": ["saans lene mein takleef", "सांस लेने में तकलीफ", "saans phulna", "सांस फूलना"],
+      "telugu": ["prashvasana kasthamu", "ప్రశ్వాసన కష్టము", "kashtam chukelu", "కష్టం చుకెలు"],
+      "spanish": ["falta de aire", "dificultad para respirar"]
+    },
+    "body_pain": {
+      "english": ["body pain", "muscle pain", "myalgia", "body ache"],
+      "hindi": ["sharir dard", "शरीर दर्द", "angon mein dard", "अंगों में दर्द"],
+      "telugu": ["shareera vedana", "శరీర వేదన", "angi vedana", "అంగీ వేదన"],
+      "spanish": ["dolor corporal", "dolor muscular"]
+    },
+    "joint_pain": {
+      "english": ["joint pain", "arthralgia", "arthritic pain"],
+      "hindi": ["jod dard", "जोड़ दर्द", "sandhि dard", "संधि दर्द"],
+      "telugu": ["sandhi vedana", "సంధి వేదన", "mota asthulu dard", "మోట అస్థులు దర్ద"],
+      "spanish": ["dolor articular", "artralgia"]
+    },
+    "loss_of_taste_smell": {
+      "english": ["loss of taste", "loss of smell", "anosmia", "ageusia", "loss of taste and smell"],
+      "hindi": ["swad na lagana", "स्वाद न लगना", "sungandh na aana", "सुगंध न आना"],
+      "telugu": ["ruchi kashtam", "రుచి కష్టం", "gandha koshta", "గంధ కోష్ట"],
+      "spanish": ["pérdida del gusto", "pérdida del olfato", "anosmia"]
+    },
+    "high_blood_sugar": {
+      "english": ["high blood sugar", "hyperglycemia", "elevated glucose"],
+      "hindi": ["zyada cheeni", "ज्यादा चीनी", "blood sugar badh gaya", "ब्लड शुगर बढ़ गया"],
+      "telugu": ["sugar tagilipoyindu", "శుగర్ తగిలిపోయింది", "rasa adhikam", "రస అధికం"],
+      "spanish": ["nivel alto de azúcar", "hiperglucemia"]
+    },
+    "frequent_urination": {
+      "english": ["frequent urination", "polyuria", "passing urine often"],
+      "hindi": ["baar baar peshaab", "बार बार पेशाब", "peeshab bar bar aana", "पेशाब बार बार आना"],
+      "telugu": ["mootram adhikam", "మూత్రం అధికం", "moothra vaidyam", "మూత్ర వైద్యం"],
+      "spanish": ["micción frecuente", "poliuria"]
+    },
+    "blurred_vision": {
+      "english": ["blurred vision", "vision blurry", "sight problems"],
+      "hindi": ["aankhon mein dhundhlapat", "आंखों में धूंधलापन", "najar kamzor", "नजर कमजोर"],
+      "telugu": ["kanulu kharugutunnayi", "కళ్ళు ఖారుగుత్తున్నాయి", "chukku koshta", "చుక్కు కోష్ట"],
+      "spanish": ["visión borrosa", "problemas de visión"]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "DISEASES": [
+    "Allergy",
+    "Anemia",
+    "Arthritis",
+    "Asthma",
+    "COVID-19",
+    "Common Cold",
+    "Dengue",
+    "Diabetes",
+    "Flu",
+    "Food Poisoning",
+    "Gastritis",
+    "Hypertension",
+    "Malaria",
+    "Migraine",
+    "Typhoid"
+  ],
+  "SYMPTOMS": [
+    "fever",
+    "cough",
+    "cold",
+    "flu",
+    "pain",
+    "ache",
+    "headache",
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "weakness",
+    "fatigue",
+    "dizziness",
+    "shortness_of_breath",
+    "rash",
+    "itching",
+    "sneezing",
+    "runny_nose",
+    "eye_pain",
+    "blurred_vision",
+    "weight_loss",
+    "increased_thirst",
+    "chills",
+    "joint_pain",
+    "chest_pain",
+    "stomach_pain",
+    "chest_discomfort",
+    "sensitivity_to_light",
+    "skin_rash",
+    "discharge",
+    "sweating",
+    "loss_of_appetite",
+    "high_fever",
+    "dry_cough",
+    "wheezing",
+    "chest_tightness",
+    "sore_throat",
+    "nasal_congestion"
+  ],
+  "DISEASE_SYMPTOM_MAP": {
+    "Dengue": [
+      "ache",
+      "eye",
+      "fever",
+      "headache",
+      "high fever",
+      "joint",
+      "pain",
+      "rash"
+    ],
+    "Asthma": [
+      "chest",
+      "cough",
+      "shortness of breath",
+      "tightness",
+      "wheezing"
+    ],
+    "COVID-19": [
+      "ache",
+      "cough",
+      "dry",
+      "fatigue",
+      "fever",
+      "headache",
+      "shortness of breath"
+    ],
+    "Typhoid": [
+      "ache",
+      "fever",
+      "headache",
+      "loss of appetite",
+      "pain",
+      "stomach",
+      "weakness"
+    ],
+    "Allergy": [
+      "eye",
+      "rash",
+      "runny nose",
+      "skin",
+      "sneezing"
+    ],
+    "Food Poisoning": [
+      "diarrhea",
+      "fever",
+      "nausea",
+      "stomach",
+      "vomiting"
+    ],
+    "Diabetes": [
+      "blurred",
+      "fatigue",
+      "red",
+      "thirst",
+      "vision",
+      "weight loss"
+    ],
+    "Migraine": [
+      "ache",
+      "headache",
+      "nausea",
+      "sensitivity",
+      "vomiting"
+    ],
+    "Hypertension": [
+      "ache",
+      "blurred",
+      "chest",
+      "discomfort",
+      "dizziness",
+      "headache",
+      "red",
+      "vision"
+    ],
+    "Malaria": [
+      "ache",
+      "chills",
+      "fever",
+      "headache",
+      "nausea",
+      "sweating"
+    ],
+    "Arthritis": [
+      "joint",
+      "pain",
+      "red",
+      "stiff",
+      "swelling"
+    ],
+    "Anemia": [
+      "dizziness",
+      "fatigue",
+      "shortness of breath",
+      "skin"
+    ],
+    "Common Cold": [
+      "congestion",
+      "cough",
+      "runny nose",
+      "sneezing",
+      "throat"
+    ],
+    "Gastritis": [
+      "loss of appetite",
+      "nausea",
+      "pain",
+      "stomach"
+    ],
+    "Flu": [
+      "ache",
+      "chills",
+      "cough",
+      "fatigue",
+      "fever",
+      "headache",
+      "pain",
+      "throat"
+    ]
+  }
+}

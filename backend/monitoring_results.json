@@ -1,0 +1,165 @@
+{
+  "timestamp": "2026-02-20T12:34:24.846405",
+  "predictions": [
+    {
+      "timestamp": "2026-02-20T12:34:24.665608",
+      "input": "fever cough shortness of breath",
+      "predicted_disease": "Hypertension",
+      "confidence": 0.58,
+      "risk_level": "Critical",
+      "response_time_ms": 17.77958869934082,
+      "detected_symptoms": [
+        "fever",
+        "cough",
+        "shortness_of_breath"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.691710",
+      "input": "high fever joint pain rash headache",
+      "predicted_disease": "Flu",
+      "confidence": 0.8559,
+      "risk_level": "Critical",
+      "response_time_ms": 24.667739868164062,
+      "detected_symptoms": [
+        "pain",
+        "fever",
+        "ache",
+        "headache",
+        "rash",
+        "joint_pain"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.723587",
+      "input": "fever chills body ache sweating",
+      "predicted_disease": "Typhoid",
+      "confidence": 0.258,
+      "risk_level": "Critical",
+      "response_time_ms": 31.876564025878906,
+      "detected_symptoms": [
+        "pain",
+        "fever",
+        "ache",
+        "chills",
+        "bodyache",
+        "sweating"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.741736",
+      "input": "shortness of breath difficulty breathing",
+      "predicted_disease": "Arthritis",
+      "confidence": 0.395,
+      "risk_level": "Critical",
+      "response_time_ms": 18.149375915527344,
+      "detected_symptoms": [
+        "shortness_of_breath",
+        "difficulty_breathing"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.758411",
+      "input": "itching rash sneezing watery eyes",
+      "predicted_disease": "Anemia",
+      "confidence": 0.5435,
+      "risk_level": "Critical",
+      "response_time_ms": 15.641212463378906,
+      "detected_symptoms": [
+        "rash",
+        "sneezing",
+        "watery_eyes",
+        "itching"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.788021",
+      "input": "fatigue blurred vision loss of appetite",
+      "predicted_disease": "Asthma",
+      "confidence": 0.4188,
+      "risk_level": "Critical",
+      "response_time_ms": 28.08094024658203,
+      "detected_symptoms": [
+        "fatigue",
+        "blurred_vision"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.819902",
+      "input": "fever weakness headache prolonged",
+      "predicted_disease": "Flu",
+      "confidence": 0.9877,
+      "risk_level": "Critical",
+      "response_time_ms": 30.33900260925293,
+      "detected_symptoms": [
+        "fever",
+        "headache",
+        "fatigue",
+        "weakness"
+      ],
+      "status": "success",
+      "correct": false
+    },
+    {
+      "timestamp": "2026-02-20T12:34:24.836691",
+      "input": "headache dizziness blurred vision",
+      "predicted_disease": "Malaria",
+      "confidence": 0.9847,
+      "risk_level": "Critical",
+      "response_time_ms": 16.788959503173828,
+      "detected_symptoms": [
+        "headache",
+        "dizziness",
+        "blurred_vision"
+      ],
+      "status": "success",
+      "correct": false
+    }
+  ],
+  "accuracy_by_disease": {
+    "COVID-19": {
+      "correct": 0,
+      "total": 1
+    },
+    "Dengue": {
+      "correct": 0,
+      "total": 1
+    },
+    "Malaria": {
+      "correct": 0,
+      "total": 1
+    },
+    "Asthma": {
+      "correct": 0,
+      "total": 1
+    },
+    "Allergy": {
+      "correct": 0,
+      "total": 1
+    },
+    "Diabetes": {
+      "correct": 0,
+      "total": 1
+    },
+    "Typhoid": {
+      "correct": 0,
+      "total": 1
+    },
+    "Hypertension": {
+      "correct": 0,
+      "total": 1
+    }
+  }
+}

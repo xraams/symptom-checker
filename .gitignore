@@ -1,0 +1,14 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/models/*.cbm
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.idea/
+mobile/.packages
+
+# VS Code
+.vscode/

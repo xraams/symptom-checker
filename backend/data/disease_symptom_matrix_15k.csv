@@ -1,0 +1,89 @@
+disease,symptom,weight,description
+Dengue,pain,85.26315789473684,pain
+Dengue,eye,35.89473684210526,eye
+Dengue,joint,33.89473684210526,joint
+Asthma,cough,59.60526315789474,cough
+Asthma,shortness of breath,52.10526315789474,shortness of breath
+Asthma,chest,38.5,chest
+Asthma,wheezing,18.44736842105263,wheezing
+Asthma,tightness,18.526315789473685,tightness
+COVID-19,cough,59.60526315789474,cough
+COVID-19,ache,111.5,ache
+COVID-19,headache,111.5,headache
+COVID-19,shortness of breath,52.10526315789474,shortness of breath
+COVID-19,dry,13.552631578947368,dry
+Typhoid,pain,85.26315789473684,pain
+Typhoid,weakness,14.894736842105264,weakness
+Typhoid,stomach,48.421052631578945,stomach
+Allergy,rash,35.31578947368421,rash
+Allergy,sneezing,37.473684210526315,sneezing
+Allergy,runny nose,36.578947368421055,runny nose
+Allergy,eye,35.89473684210526,eye
+Allergy,skin,40.73684210526316,skin
+Food Poisoning,nausea,69.89473684210526,nausea
+Food Poisoning,vomiting,37.13157894736842,vomiting
+COVID-19,fever,87.39473684210526,fever
+COVID-19,fatigue,60.94736842105263,fatigue
+Diabetes,vision,34.23684210526316,vision
+Diabetes,weight loss,15.105263157894736,weight loss
+Diabetes,blurred,34.23684210526316,blurred
+Diabetes,red,52.81578947368421,red
+Migraine,nausea,69.89473684210526,nausea
+Migraine,vomiting,37.13157894736842,vomiting
+Migraine,sensitivity,20.289473684210527,sensitivity
+Hypertension,ache,111.5,ache
+Hypertension,headache,111.5,headache
+Hypertension,dizziness,39.86842105263158,dizziness
+Hypertension,chest,38.5,chest
+Hypertension,discomfort,19.973684210526315,discomfort
+Diabetes,thirst,14.894736842105264,thirst
+Dengue,fever,87.39473684210526,fever
+Dengue,ache,111.5,ache
+Dengue,headache,111.5,headache
+Dengue,rash,35.31578947368421,rash
+Dengue,high fever,15.736842105263158,high fever
+Migraine,ache,111.5,ache
+Migraine,headache,111.5,headache
+Hypertension,vision,34.23684210526316,vision
+Hypertension,blurred,34.23684210526316,blurred
+Hypertension,red,52.81578947368421,red
+Malaria,fever,87.39473684210526,fever
+Malaria,ache,111.5,ache
+Malaria,headache,111.5,headache
+Malaria,nausea,69.89473684210526,nausea
+Malaria,chills,29.44736842105263,chills
+Arthritis,swelling,18.07894736842105,swelling
+Arthritis,red,52.81578947368421,red
+Diabetes,fatigue,60.94736842105263,fatigue
+Anemia,fatigue,60.94736842105263,fatigue
+Anemia,dizziness,39.86842105263158,dizziness
+Anemia,shortness of breath,52.10526315789474,shortness of breath
+Anemia,skin,40.73684210526316,skin
+Common Cold,cough,59.60526315789474,cough
+Common Cold,throat,28.36842105263158,throat
+Common Cold,congestion,17.394736842105264,congestion
+Gastritis,nausea,69.89473684210526,nausea
+Gastritis,loss of appetite,31.157894736842106,loss of appetite
+Gastritis,pain,85.26315789473684,pain
+Gastritis,stomach,48.421052631578945,stomach
+Food Poisoning,fever,87.39473684210526,fever
+Flu,cough,59.60526315789474,cough
+Flu,ache,111.5,ache
+Flu,headache,111.5,headache
+Flu,fatigue,60.94736842105263,fatigue
+Flu,chills,29.44736842105263,chills
+Typhoid,ache,111.5,ache
+Typhoid,headache,111.5,headache
+Typhoid,loss of appetite,31.157894736842106,loss of appetite
+Flu,fever,87.39473684210526,fever
+Flu,throat,28.36842105263158,throat
+Arthritis,pain,85.26315789473684,pain
+Arthritis,joint,33.89473684210526,joint
+Arthritis,stiff,17.657894736842106,stiff
+Common Cold,sneezing,37.473684210526315,sneezing
+Typhoid,fever,87.39473684210526,fever
+Flu,pain,85.26315789473684,pain
+Malaria,sweating,16.157894736842106,sweating
+Food Poisoning,diarrhea,15.578947368421053,diarrhea
+Food Poisoning,stomach,48.421052631578945,stomach
+Common Cold,runny nose,36.578947368421055,runny nose

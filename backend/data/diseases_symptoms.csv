@@ -1,0 +1,31 @@
+disease,symptom,weight,description
+Common Cold,fever,0.6,Low-grade fever typically below 38.5°C
+Common Cold,cough,0.8,Dry or slightly productive cough
+Common Cold,sore_throat,0.9,Mild to moderate throat pain
+Common Cold,runny_nose,0.95,Nasal congestion and rhinitis
+Common Cold,headache,0.5,Mild frontal headache
+Common Cold,fatigue,0.4,General tiredness
+Influenza,fever,0.95,High fever often above 39°C
+Influenza,cough,0.9,Severe dry cough
+Influenza,sore_throat,0.7,Sore throat
+Influenza,body_pain,0.85,Muscle and joint pain
+Influenza,headache,0.8,Severe headache
+Influenza,fatigue,0.95,Severe fatigue lasting days
+COVID-19,fever,0.8,Variable fever
+COVID-19,cough,0.85,Persistent dry cough
+COVID-19,shortness_of_breath,0.75,Dyspnea on exertion
+COVID-19,loss_of_taste_smell,0.7,Anosmia and ageusia
+COVID-19,fatigue,0.8,Persistent fatigue
+COVID-19,headache,0.6,Headache
+Gastroenteritis,nausea,0.85,Feeling of sickness
+Gastroenteritis,vomiting,0.8,Forceful vomiting
+Gastroenteritis,diarrhea,0.95,Loose or watery stools
+Gastroenteritis,abdominal_pain,0.9,Cramping pain
+Gastroenteritis,fatigue,0.7,Weakness from fluid loss
+Migraine,headache,0.99,Severe throbbing headache
+Migraine,nausea,0.7,Associated nausea
+Migraine,vomiting,0.5,Optional vomiting
+Type 2 Diabetes Alert,high_blood_sugar,0.95,Elevated glucose levels
+Type 2 Diabetes Alert,frequent_urination,0.8,Polyuria
+Type 2 Diabetes Alert,blurred_vision,0.6,Vision changes
+Type 2 Diabetes Alert,fatigue,0.75,Diabetes-related fatigue

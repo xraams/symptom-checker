@@ -1,0 +1,39 @@
+{
+  "total_records": 15000,
+  "unique_diseases": 15,
+  "diseases": [
+    "Allergy",
+    "Anemia",
+    "Arthritis",
+    "Asthma",
+    "COVID-19",
+    "Common Cold",
+    "Dengue",
+    "Diabetes",
+    "Flu",
+    "Food Poisoning",
+    "Gastritis",
+    "Hypertension",
+    "Malaria",
+    "Migraine",
+    "Typhoid"
+  ],
+  "avg_text_length": 61.74,
+  "disease_distribution": {
+    "Common Cold": 1068,
+    "Gastritis": 1039,
+    "Food Poisoning": 1036,
+    "Migraine": 1033,
+    "Anemia": 1030,
+    "Allergy": 1027,
+    "Malaria": 1021,
+    "Flu": 1021,
+    "COVID-19": 1001,
+    "Hypertension": 984,
+    "Typhoid": 975,
+    "Dengue": 961,
+    "Diabetes": 961,
+    "Asthma": 924,
+    "Arthritis": 919
+  }
+}
